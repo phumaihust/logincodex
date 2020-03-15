@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f7f6f1;
+}
+
+.login{
+	height: 1000px;
+	display: flex;
+	justify-content: space-between;
+}
+.bg-left{
+	width: 60%;
+	position: relative;
+}
+
+.bg-caption{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 20px;
+	width: 100%;
+}
+
+
+
+.bg-right{
+	width: 40%;
+	position: relative;
+	background: white;
+}
+
+.bg-caption2{
+	margin-top: 150px;
+	margin-left: 30px;
+	display: block;
+}
+
+.bg-caption2 img{
+	height: 32px;
+	margin-bottom: 20px;
+}
+
+.bg-caption2 p{
+	margin-bottom: 20px;
+}
+
+.bg-caption2 form{
+	margin-bottom: 20px;
+}
+
+
+form input {
+    border: none;
+    height: 30px;
+}
+
+form {
+    color: #92a0b8;
+}
+
+form > div {
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.btn-login{
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-login button{
+	height: 30px;
+	width: 150px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	background: #2c7ebf;
+}
+
+.btn-login a{
+	top: 5px;
+	margin: 5px;
+}
+
+.contact button{
+	position: relative;
+	width: 400px;
+	height: 35px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+
+}
+
+.contact button:nth-child(1) {
+    background: #4267b2;
+}
+
+.contact button:nth-child(2) {
+    background: #dc4e41;
+}
+
+.contact button span:nth-child(1) {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    font-size: 20px;
+}
+
+
+.contact button span:nth-child(2) {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.register {
+	margin-top: 20px;
+}
